@@ -30,6 +30,7 @@ Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'mtth/scratch.vim'
 
 " Vim Airline
 let g:airline#extensions#tabline#enabled = 1
