@@ -52,6 +52,9 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" Insert space characters whenever the tab key is pressed
+set expandtab
+
 " Width for tab characters present in a file being edited
 set tabstop=2
 " Number of spaces to use for each step of (auto)indent. For <, >, etc.
