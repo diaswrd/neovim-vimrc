@@ -28,6 +28,11 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " My plugins
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+" Vim Airline
+let g:airline#extensions#tabline#enabled = 1
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
