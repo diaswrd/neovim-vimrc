@@ -60,6 +60,18 @@ set shiftwidth=2
 " Number of spaces that a <Tab> counts for when typing TAB, backspace, etc.
 set softtabstop=2
 
+" Indicates a fast terminal connection, improves smoothness of redrawing
+set ttyfast
+
+" Don't redraw screen during macros, etc. Also improves smoothness.
+set lazyredraw
+
+" Show the line and column number of the cursor position
+set ruler
+
+" Ignore case when searching with a pattern in all lower case
+set ignorecase
+
 " Javacomplete configuration
 autocmd FileType java setlocal omnifunc=javacomplete#Complete
 nmap <F5> <Plug>(JavaComplete-Imports-Add)
