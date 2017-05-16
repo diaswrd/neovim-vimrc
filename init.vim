@@ -31,6 +31,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mtth/scratch.vim'
+Plugin 'elzr/vim-json'
 
 " Vim Airline
 let g:airline#extensions#tabline#enabled = 1
