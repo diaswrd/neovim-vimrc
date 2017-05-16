@@ -33,6 +33,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'mtth/scratch.vim'
 Plugin 'elzr/vim-json'
 Plugin 'tpope/vim-markdown'
+Plugin 'ap/vim-css-color'
+Plugin 'hail2u/vim-css3-syntax'
 
 " Vim Airline
 let g:airline#extensions#tabline#enabled = 1
