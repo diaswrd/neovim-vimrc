@@ -26,6 +26,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 " My plugins
+Plugin 'scrooloose/nerdtree'
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vim-airline/vim-airline'
@@ -35,6 +36,18 @@ Plugin 'elzr/vim-json'
 Plugin 'tpope/vim-markdown'
 Plugin 'ap/vim-css-color'
 Plugin 'hail2u/vim-css3-syntax'
+
+" NERD Tree file navigation
+let NERDTreeShowBookmarks=1
+let NERDTreeChDirMode=1
+let NERDTreeDirArrows=1
+
+" Start NERDTree by default
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
+" Quit NERDTree when there's no active buffer
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " Vim Airline
 let g:airline#extensions#tabline#enabled = 1
