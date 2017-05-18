@@ -36,6 +36,7 @@ Plugin 'elzr/vim-json'
 Plugin 'tpope/vim-markdown'
 Plugin 'ap/vim-css-color'
 Plugin 'hail2u/vim-css3-syntax'
+Plugin 'Shougo/deoplete.nvim'
 
 " NERD Tree file navigation
 let NERDTreeShowBookmarks=1
