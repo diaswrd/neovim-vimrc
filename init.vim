@@ -53,6 +53,9 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Vim Airline
 let g:airline#extensions#tabline#enabled = 1
 
+" Use deoplete.
+let g:deoplete#enable_at_startup = 1
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
