@@ -27,6 +27,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 " My plugins
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'vim-airline/vim-airline'
