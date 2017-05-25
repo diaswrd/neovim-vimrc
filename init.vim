@@ -37,7 +37,7 @@ Plugin 'elzr/vim-json'
 Plugin 'tpope/vim-markdown'
 Plugin 'ap/vim-css-color'
 Plugin 'hail2u/vim-css3-syntax'
-Plugin 'Shougo/deoplete.nvim'
+" Plugin 'Shougo/deoplete.nvim'
 
 " NERD Tree file navigation
 let NERDTreeShowBookmarks=1
@@ -87,7 +87,7 @@ set softtabstop=2
 set ttyfast
 
 " Don't redraw screen during macros, etc. Also improves smoothness.
-set lazyredraw
+set nolazyredraw
 
 " Show the line and column number of the cursor position
 set ruler
